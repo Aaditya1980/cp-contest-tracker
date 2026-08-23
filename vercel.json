@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/api/contests", "destination": "/api/contests.js" },
+    { "source": "/api/calendar/ics", "destination": "/api/calendar/ics.js" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
